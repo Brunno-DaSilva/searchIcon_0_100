@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(4, 57, 97);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(4, 57, 97, 1) 0%,
+    rgba(217, 61, 61, 1) 50%,
+    rgba(217, 61, 61, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(4, 57, 97, 1) 0%,
+    rgba(217, 61, 61, 1) 50%,
+    rgba(217, 61, 61, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(4, 57, 97, 1) 0%,
+    rgba(217, 61, 61, 1) 50%,
+    rgba(217, 61, 61, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#043961",endColorstr="#d93d3d",GradientType=1);
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.trigger_search {
+  background: #771f44;
+  border: 0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  outline: 0;
+  cursor: pointer;
+}
+
+.input {
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  transition: 0.25s ease-in-out all;
+  width: 0;
+  padding: 0;
+  margin-right: -25px;
+  height: 40px;
+}
+
+.input-open {
+  width: 70vw;
+  padding: 0 50px;
+  margin-right: 10px;
+}
